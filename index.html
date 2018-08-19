@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+	<title>FreeCAD Wiki</title>
+
+	<!-- Include bootstrap CSS file -->
+	<link rel="stylesheet" href="css/bootstrap-4.1.2.min.css">
+
+	<!-- Custom Styles -->
+	<link rel="stylesheet" type="text/css" href="css/theme_simple.css">
+</head>
+
+<body>
+	<!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+		<a class="navbar-brand" href="#"><img src="svg/logo-freecad.svg"></a>
+
+
+
+		<div class="dropdown ml-auto">
+			<a class="btn btn-default dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<img src="lang/en/flag.jpg"/>
+			</a>
+
+			<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="/?lang=af"><img src="lang/af/flag.jpg"/>Afrikaans</a>
+				<a class="dropdown-item" href="/?lang=zh_CN"><img src="lang/zh_CN/flag.jpg"/>Chinese Simplified</a>
+				<a class="dropdown-item" href="/?lang=zh_TW"><img src="lang/zh_TW/flag.jpg"/>Chinese Traditional</a>
+				<a class="dropdown-item" href="/?lang=hr"><img src="lang/hr/flag.jpg"/>Croatian</a>
+				<a class="dropdown-item" href="/?lang=cs"><img src="lang/cs/flag.jpg"/>Czech</a>
+				<a class="dropdown-item" href="/?lang=nl"><img src="lang/nl/flag.jpg"/>Dutch</a>
+				<a class="dropdown-item" href="/"><img src="lang/en/flag.jpg"/>English</a>
+				<a class="dropdown-item" href="/?lang=fi"><img src="lang/fi/flag.jpg"/>Finnish</a>
+				<a class="dropdown-item" href="/?lang=fr"><img src="lang/fr/flag.jpg"/>French</a>
+				<a class="dropdown-item" href="/?lang=de"><img src="lang/de/flag.jpg"/>German</a>
+				<a class="dropdown-item" href="/?lang=hu"><img src="lang/hu/flag.jpg"/>Hungarian</a>
+				<a class="dropdown-item" href="/?lang=ja"><img src="lang/ja/flag.jpg"/>Japanese</a>
+				<a class="dropdown-item" href="/?lang=no"><img src="lang/no/flag.jpg"/>Norwegian</a>
+				<a class="dropdown-item" href="/?lang=pl"><img src="lang/pl/flag.jpg"/>Polish</a>
+				<a class="dropdown-item" href="/?lang=pt_PT"><img src="lang/pt_PT/flag.jpg"/>Portuguese</a>
+				<a class="dropdown-item" href="/?lang=ro"><img src="lang/ro/flag.jpg"/>Romanian</a>
+				<a class="dropdown-item" href="/?lang=ru"><img src="lang/ru/flag.jpg"/>Russian</a>
+				<a class="dropdown-item" href="/?lang=sr"><img src="lang/sr/flag.jpg"/>Serbian (Cyrillic)</a>
+				<a class="dropdown-item" href="/?lang=es_ES"><img src="lang/es_ES/flag.jpg"/>Spanish</a>
+				<a class="dropdown-item" href="/?lang=sv_SE"><img src="lang/sv_SE/flag.jpg"/>Swedish</a>
+				<a class="dropdown-item" href="/?lang=uk"><img src="lang/uk/flag.jpg"/>Ukrainian</a>
+				<a class="dropdown-item" href="/?lang=it"><img src="lang/it/flag.jpg"/>Italian</a>
+				<a class="dropdown-item" href="/?lang=el"><img src="lang/el/flag.jpg"/>Greek</a>
+				<a class="dropdown-item" href="/?lang=sk"><img src="lang/sk/flag.jpg"/>Slovak</a>
+				<a class="dropdown-item" href="/?lang=tr"><img src="lang/tr/flag.jpg"/>Turkish</a>
+				<a class="dropdown-item" href="/?lang=sl"><img src="lang/sl/flag.jpg"/>Slovenian</a>
+			</div>
+		</div>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	</nav> -->
+
+	<div id="main" class="container-fluid">
+
+		<div class="row">
+			<div class="col-lg-3 col-sm-3 side-navbar">
+				<img class="img-fluid logo-freecad-wiki" src="svg/logo-freecad-wiki.svg" alt="Logo FreeCAD Wiki">
+
+				<a class="btn btn-default side-navbar-btn active" role="button" href="#">Wiki Home</a>
+				<a class="btn btn-default side-navbar-btn" role="button" href="#">Features</a>
+				<a class="btn btn-default side-navbar-btn" role="button" href="#">Screenshots</a>
+				<a class="btn btn-default side-navbar-btn" role="button" href="#">Downloads</a>
+				<a class="btn btn-default side-navbar-btn" role="button" href="#">Getting Started</a>
+				<a class="btn btn-default side-navbar-btn" role="button" href="#">FAQ</a>
+				<a class="btn btn-default side-navbar-btn" role="button" href="#">Forum</a>
+				<a class="btn btn-default side-navbar-btn" role="button" href="#">Tracker</a>
+				<a class="btn btn-default side-navbar-btn" role="button" href="#">Tutorials</a>
+
+			</div>
+
+			<div class="col-lg-9 col-sm-9 wiki-body">
+
+				<div class="container-fluid top-bar">
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="Search FreeCAD Documentation" aria-label="Search" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="button-addon2">Enter</button>
+						</div>
+					</div>
+
+					<a class="btn btn-default login-btn" role="button" href="#">Login</a>
+
+					<div class="dropdown">
+						<a class="btn btn-default dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<img src="lang/en/flag.jpg"/>
+						</a>
+
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="/?lang=af"><img src="lang/af/flag.jpg"/>Afrikaans</a>
+							<a class="dropdown-item" href="/?lang=zh_CN"><img src="lang/zh_CN/flag.jpg"/>Chinese Simplified</a>
+							<a class="dropdown-item" href="/?lang=zh_TW"><img src="lang/zh_TW/flag.jpg"/>Chinese Traditional</a>
+							<a class="dropdown-item" href="/?lang=hr"><img src="lang/hr/flag.jpg"/>Croatian</a>
+							<a class="dropdown-item" href="/?lang=cs"><img src="lang/cs/flag.jpg"/>Czech</a>
+							<a class="dropdown-item" href="/?lang=nl"><img src="lang/nl/flag.jpg"/>Dutch</a>
+							<a class="dropdown-item" href="/"><img src="lang/en/flag.jpg"/>English</a>
+							<a class="dropdown-item" href="/?lang=fi"><img src="lang/fi/flag.jpg"/>Finnish</a>
+							<a class="dropdown-item" href="/?lang=fr"><img src="lang/fr/flag.jpg"/>French</a>
+							<a class="dropdown-item" href="/?lang=de"><img src="lang/de/flag.jpg"/>German</a>
+							<a class="dropdown-item" href="/?lang=hu"><img src="lang/hu/flag.jpg"/>Hungarian</a>
+							<a class="dropdown-item" href="/?lang=ja"><img src="lang/ja/flag.jpg"/>Japanese</a>
+							<a class="dropdown-item" href="/?lang=no"><img src="lang/no/flag.jpg"/>Norwegian</a>
+							<a class="dropdown-item" href="/?lang=pl"><img src="lang/pl/flag.jpg"/>Polish</a>
+							<a class="dropdown-item" href="/?lang=pt_PT"><img src="lang/pt_PT/flag.jpg"/>Portuguese</a>
+							<a class="dropdown-item" href="/?lang=ro"><img src="lang/ro/flag.jpg"/>Romanian</a>
+							<a class="dropdown-item" href="/?lang=ru"><img src="lang/ru/flag.jpg"/>Russian</a>
+							<a class="dropdown-item" href="/?lang=sr"><img src="lang/sr/flag.jpg"/>Serbian (Cyrillic)</a>
+							<a class="dropdown-item" href="/?lang=es_ES"><img src="lang/es_ES/flag.jpg"/>Spanish</a>
+							<a class="dropdown-item" href="/?lang=sv_SE"><img src="lang/sv_SE/flag.jpg"/>Swedish</a>
+							<a class="dropdown-item" href="/?lang=uk"><img src="lang/uk/flag.jpg"/>Ukrainian</a>
+							<a class="dropdown-item" href="/?lang=it"><img src="lang/it/flag.jpg"/>Italian</a>
+							<a class="dropdown-item" href="/?lang=el"><img src="lang/el/flag.jpg"/>Greek</a>
+							<a class="dropdown-item" href="/?lang=sk"><img src="lang/sk/flag.jpg"/>Slovak</a>
+							<a class="dropdown-item" href="/?lang=tr"><img src="lang/tr/flag.jpg"/>Turkish</a>
+							<a class="dropdown-item" href="/?lang=sl"><img src="lang/sl/flag.jpg"/>Slovenian</a>
+						</div>
+					</div>
+				</div>
+
+				<h4>Introduction</h4>
+				<p>
+					This is the documentation wiki of FreeCAD. You have two main ways to browse through the documentation: by exploring user hubs, or by following the manual. It is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please help!
+				</p>
+
+				<h4>User hubs</h4>
+				<p>
+					<img class="image-fluid icon-left" src="svg/icon_computer.svg" alt="Users Hub" align="left" valign="middle" vspace="5" hspace="5"/>
+
+					<a href="#">Users hub:</a>
+					This page contains documentation useful for FreeCAD users in general: a list of all the workbenches, detailed instructions on how to install and use the FreeCAD application, tutorials, and all you need to get started.
+				</p>
+
+				<p>
+					<img class="image-fluid icon-left" src="svg/icon_terminal.svg" alt="Power Users Hub" align="left" valign="middle" vspace="5" hspace="5"/>
+
+					<a href="#">Power users hub:</a>
+					This page gathers documentation for advanced users and people interested in writing python scripts. You will also find there a repository of macros, instructions on how to install and use them, and more information about customizing FreeCAD to your specific needs.
+				</p>
+
+				<p>
+					<img class="image-fluid icon-left" src="svg/icon_blackboard.svg" alt="Developers Hub" align="left" valign="middle" vspace="5" hspace="5"/>
+
+					<a href="#">Developers hub:</a>
+					This section contains material for developers: How to compile FreeCAD yourself, how the FreeCAD source code is structured and how to navigate in it, and how to develop new workbenches, or embed FreeCAD in your own application.
+				</p>
+
+				<h4>Manual</h4>
+				<p>
+					The FreeCAD manual is another, more linear way to present the information contained in this wiki. It is made to be read like a book, and will gently introduce you to many other pages from the hubs above. ebook versions are also available, as well as a couple of translations in pdf format.
+				</p>
+
+				<h4>Table of contents</h4>
+				<p>
+					The following table lists all the articles of this wiki that form the backbone of the offline documentation shipped with the FreeCAD application. It is already available in several languages:
+				</p>
+				<div class="row">
+					<div class="col-lg-4 col-sm-6">
+						<ul>
+							<li><a href="#">Table of contents</a></li>
+							<li><a href="#">Съдържание</a></li>
+							<li><a href="#">目录 cn (obsolete - please use zh-cn)</a></li>
+							<li><a href="#">目录 zh-cn</a></li>
+							<li><a href="#">目錄 zh-tw</a></li>
+							<li><a href="#">Obsah</a></li>
+							<li><a href="#">Sadržaj</a></li>
+						</ul>
+					</div> <!-- End col -->
+
+					<div class="col-lg-4 col-sm-6">
+						<ul>
+							<li><a href="#">Inhaltsverzeichnis</a></li>
+							<li><a href="#">Índice de contenidos</a></li>
+							<li><a href="#">Cuprins</a></li>
+							<li><a href="#">Table des matières</a></li>
+							<li><a href="#">Sommario</a></li>
+							<li><a href="#">目次 jp</a></li>
+							<li><a href="#">目次 日本語 ja</a></li>
+						</ul>
+					</div> <!-- End col -->
+
+					<div class="col-lg-4 col-sm-6">
+						<ul>
+							<li><a href="#">Spis Treści</a></li>
+							<li><a href="#">Tabela de conteúdos pt</a></li>
+							<li><a href="#">Índice pt-br</a></li>
+							<li><a href="#">Содержание</a></li>
+							<li><a href="#">Innehallsforteckning sv</a></li>
+							<li><a href="#">İçindekiler</a></li>
+							<li><a href="#">Інтернет Допомога</a></li>
+						</ul>
+					</div> <!-- End col -->
+				</div> <!-- End row -->
+
+		</div>
+
+
+
+		</div>
+	</div> <!-- End #main -->
+
+
+	<!-- Include Bootstrap JS files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper-1.14.3.min.js"></script>
+	<script src="js/bootstrap-4.1.2.min.js"></script>
+</body>
+</html>

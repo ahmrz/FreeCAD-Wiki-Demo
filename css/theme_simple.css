@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto-Light.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Medium.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.woff") format('woff');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+	font-family: 'Roboto-Regular', sans-serif;
+    /* Allow for font scaling (also supported in IE) */
+    font-size: calc(1vw + 1vh - 1vmin + 8px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat-Bold', sans-serif;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+p, a {
+	font-size: 0.8em;
+}
+
+p a {
+    font-size: 1em;
+}
+
+.wiki-body a {
+    font-family: 'Roboto-Bold', sans-serif;
+    color: #15a0ff;
+}
+
+.btn-default {
+    border-radius: 0;
+}
+
+.wiki-body .dropdown .dropdown-toggle {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.wiki-body .dropdown .dropdown-toggle:after {
+    content: none;
+}
+
+.wiki-body .dropdown .dropdown-menu {
+    height: 75vh;
+    overflow: auto;
+}
+
+.wiki-body .dropdown .dropdown-menu a {
+    color: #404040;
+    font-size: 0.7em;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+.wiki-body .dropdown .dropdown-menu a img {
+    padding-right: 1em;
+}
+
+.wiki-body .dropdown .dropdown-menu a:hover, .wiki-body .dropdown .dropdown-menu a.active {
+    background-color: #404040;
+    color: #FFFFFF;
+}
+
+.side-navbar {
+    background-color: #323d46;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.side-navbar-btn {
+    width: 100%;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 2em;
+	font-family: 'Roboto-Medium', sans-serif;
+    font-size: 0.8em;
+    color: #FFFFFF;
+}
+
+.side-navbar-btn.active {
+    background-color: #15a0ff;
+    color: #FFFFFF;
+}
+
+.side-navbar-btn:hover {
+    background-color: #FFFFFF;
+    color: #323d46;
+}
+
+.logo-freecad-wiki {
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    padding-bottom: 1.7em;
+}
+
+.wiki-body {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.wiki-body .top-bar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1em;
+    display: inline-flex;
+}
+
+.wiki-body .top-bar .login-btn {
+    /* background-color: #323d46; */
+    color: #323d46;
+	font-family: 'Roboto-Medium', sans-serif;
+    font-size: 0.8em;
+
+}
+
+.wiki-body .top-bar .login-btn:hover, .wiki-body .login-bar .login-btn.active {
+    color: #15a0ff;
+}
+
+.wiki-body p .icon-left {
+    padding-right: 1em;
+}
+
+.wiki-body .top-bar .input-group .form-control, .wiki-body .top-bar .input-group .input-group-append .btn {
+    font-size: 0.8em;
+}
