@@ -138,6 +138,11 @@ p a {
     padding-bottom: 1.7em;
 }
 
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
 .wiki-body {
     padding-top: 2em;
     padding-left: 2em;
@@ -164,7 +169,7 @@ p a {
     color: #15a0ff;
 }
 
-.wiki-body p .icon-left {
+.wiki-body .icon-left {
     padding-right: 1em;
 }
 
