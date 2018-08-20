@@ -120,6 +120,10 @@ p a {
 	font-family: 'Roboto-Medium', sans-serif;
     font-size: 0.8em;
     color: #FFFFFF;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .side-navbar-btn.active {
@@ -133,9 +137,10 @@ p a {
 }
 
 .logo-freecad-wiki {
+    width: 100%;
     padding-left: 1.7em;
     padding-right: 1.7em;
-    padding-bottom: 1.7em;
+    padding-bottom: 2em;
 }
 
 .vertical-align {
@@ -145,8 +150,8 @@ p a {
 
 .wiki-body {
     padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
     padding-bottom: 2em;
 }
 
